@@ -1,0 +1,138 @@
+{
+    "basic_info": {
+      "description_header": "Hola",
+      "description": "👋¡Hola a todos! Soy Xiaolin, una apasionada desarrolladora junior recién graduada. Mi enfoque principal es el desarrollo frontend, donde he estado aprendiendo y trabajando con tecnologías como React.js, Redux y Express. Además de mis habilidades de frontend, también tengo experiencia en Docker, Git y SQL, lo que me permite administrar proyectos de manera eficiente y colaborar en equipos de desarrollo.💜",
+      "section_name": {
+        "about": "Acerca de mí",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "experience": "Experiencia"
+      }
+    },
+    "projects": [
+      {
+        "title": "Animal Shelter",
+        "startDate": "2020",
+        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "images": [
+          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/animal-shelter/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Photography",
+        "startDate": "2018",
+        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "3D Object Viewer",
+        "startDate": "2015",
+        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Almato Iberia",
+        "title": "Becaria | Desarrollador front-end",
+        "years": "6.2022 - 6.2023",
+        "mainTech": [
+          "React JS 4/5/6"
+        ],
+        "technologies": [
+          "JavaScript",
+          "ReactJS",
+          "CSS 3",
+          "Bootstrap",
+          "SQLite3",
+          "Express",
+          "Redux",
+          "NodeJS",
+          "GitLab",
+          "Docker"
+        ]
+      },
+    {
+        "company": "Instituto Juan de Austria",
+        "title": "Estudiante de desarrollo multiplataforma",
+        "years": "9.2021 - 6.2023",
+        "mainTech": [
+          "Desarrollo de aplicaciones"
+        ],
+        "technologies": [
+          "Java",
+          "Kotlin",
+          "Python",
+          "SQLite3",
+          "MySQL",
+          "MongoDB",
+          "HTML 5",
+          "CSS 3",
+          "GitHub",
+          "Docker,  Docker Hub"
+        ]
+      },
+      {
+        "company": "BritoTech S.L",
+        "title": "Dependienta de telefono",
+        "years": "01.2017 - 09.2019",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+          "Recuperación de datos",
+          "Reparación de Móviles",
+          "Servicio al Cliente",
+          "Actualización de software"
+        ]
+      }
+    ]
+  }
