@@ -29,6 +29,14 @@ class Header extends Component {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
+    if (this.props.resumeBasicInfo) {
+      var home = this.props.resumeBasicInfo.section_name.home;
+      var about = this.props.resumeBasicInfo.section_name.about;
+      var projects = this.props.resumeBasicInfo.section_name.projects;
+      var skills = this.props.resumeBasicInfo.section_name.skills;
+      var experience = this.props.resumeBasicInfo.section_name.experience;
+      var contact = this.props.resumeBasicInfo.section_name.contact;
+    }
 
     const HeaderTitleTypeAnimation = React.memo( () => {
       return <Typical className="title-styles" steps={this.titles} loop={50} />
@@ -49,12 +57,12 @@ class Header extends Component {
                   zIndex: "1000",
                 }}>
                 <ul style={{ listStyle: "none", margin: "0", padding: "0", display: "flex", fontSize: "15px", borderBlockEnd: "1px solid #303030" }}>
-                    <li style={{marginRight: "15px"}}><a href="#home" onclick="seleccionar()" style={{ color: "#303030", fontWeight: "bold"}}>HOME</a></li>
-                    <li style={{marginRight: "15px"}}><a href="#about" onclick="seleccionar()" style={{ color: "#303030", fontWeight: "bold"}}>SOBRE MI</a></li>
-                    <li style={{marginRight: "15px"}}><a href="#portfolio" onclick="seleccionar()" style={{ color: "#303030", fontWeight: "bold"}}>PROJECTS</a></li>
-                    <li style={{marginRight: "15px"}}><a href="#skills" onclick="seleccionar()" style={{ color: "#303030", fontWeight: "bold"}}>SKILLS</a></li>
-                    <li style={{marginRight: "15px"}}><a href="#resume" onclick="seleccionar()" style={{ color: "#303030", fontWeight: "bold"}}>EXPERIENCE</a></li>
-                    <li style={{marginRight: "15px"}}><a href="#contact" onclick="seleccionar()" style={{ color: "#303030", fontWeight: "bold"}}>CONTACT</a></li>
+                    <li style={{marginRight: "15px"}}><a href="#home" onclick="seleccionar()" style={{ color: "#303030", fontWeight: "bold"}}>{home}</a></li>
+                    <li style={{marginRight: "15px"}}><a href="#about" onclick="seleccionar()" style={{ color: "#303030", fontWeight: "bold"}}>{about}</a></li>
+                    <li style={{marginRight: "15px"}}><a href="#portfolio" onclick="seleccionar()" style={{ color: "#303030", fontWeight: "bold"}}>{projects}</a></li>
+                    <li style={{marginRight: "15px"}}><a href="#skills" onclick="seleccionar()" style={{ color: "#303030", fontWeight: "bold"}}>{skills}</a></li>
+                    <li style={{marginRight: "15px"}}><a href="#resume" onclick="seleccionar()" style={{ color: "#303030", fontWeight: "bold"}}>{experience}</a></li>
+                    <li style={{marginRight: "15px"}}><a href="#contact" onclick="seleccionar()" style={{ color: "#303030", fontWeight: "bold"}}>{contact}</a></li>
                 </ul>
             </nav>
         <div className="row aligner" style={{height: '100%'}}>
