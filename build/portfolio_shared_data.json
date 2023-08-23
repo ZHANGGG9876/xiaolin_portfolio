@@ -1,0 +1,83 @@
+{
+    "basic_info": {
+      "name": "Xiaolin Zhang",
+      "titles": [ "Junior Developer" ],
+      "social": [
+        {
+          "name": "whatsapp",
+          "url": "https://www.whatsapp.com",
+          "class": "fab fa-whatsapp"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/ZHANGGG9876",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/xiaolin-zhang-264747239/",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "70"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "80"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "60"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "60"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "60"
+        }
+      ]
+    }
+  }
