@@ -1,5 +1,6 @@
 {
-  "name": "react-frontend-dev-portfolio",
+  "name": "xiaolin_portfolio",
+  "homepage" : "https://zhanggg9876.github.io/xiaolin_portfolio/build/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
